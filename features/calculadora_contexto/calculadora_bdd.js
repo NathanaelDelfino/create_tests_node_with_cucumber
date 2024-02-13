@@ -4,8 +4,6 @@ const { Given, When, Then } = require("@cucumber/cucumber");
 let calculadora = require("./dominio/entidades/calculadora_entidade.js");
 let resultado;
 
-
-
 Given("Eu entrei o primeiro {string} na calculadora", function (number) {
   calculadora.AddNumero1(parseInt(number));
 });
