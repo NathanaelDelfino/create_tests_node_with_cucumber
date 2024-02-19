@@ -19,3 +19,43 @@
    - Além disso, DDD promove uma linguagem ubíqua compartilhada entre todos os membros da equipe, o que reduz a lacuna de comunicação e ajuda a evitar mal-entendidos durante o desenvolvimento.
 
 Em resumo, a combinação de BDD, TDD e DDD em projetos Node.js promove uma abordagem mais colaborativa e centrada no usuário, ao mesmo tempo que garante a qualidade e a manutenibilidade do código-fonte. Essas práticas não apenas reduzem o tempo gasto em depuração e correção de bugs, mas também fornecem uma base sólida para a evolução contínua do software em resposta às necessidades do negócio.
+
+### Sobre o Cucumber
+
+O Cucumber é uma ferramenta de automação de testes de software que suporta a prática de BDD. Ele permite que os testes sejam escritos em uma linguagem de domínio específico (DSL) chamada GHERKIN, que é fácil de entender por pessoas não técnicas, como stakeholders e gerentes de projeto. O Gherkin descreve o comportamento esperado do sistema em termos de cenários de teste escritos em um formato legível para humanos, usando palavras-chave como "Dado", "Quando" e "Então". Esses cenários são então executados pelo Cucumber, que automatiza a interação com o sistema e verifica se o comportamento esperado é observado.
+
+### GHERKIN
+
+- **G:** Given (Dado) - Descreve o estado inicial ou contexto do cenário de teste.
+- **H:** When (Quando) - Descreve a ação ou evento que desencadeia o comportamento a ser testado.
+- **E:** Then (Então) - Descreve o resultado esperado após a ação ou evento especificado.
+- **R:** Rule (Regra) - Opcionalmente usado para agrupar cenários relacionados sob uma regra específica.
+- **K:** And (E) - Usado para adicionar múltiplos passos ao mesmo nível de hierarquia.
+- **I:** Incomplete (Incompleto) - Indica um cenário ou passo incompleto, geralmente usado como marcador de espaço reservado durante o desenvolvimento.
+- **N:** Narrative (Narrativa) - Opcionalmente usado para fornecer uma descrição adicional ou contexto ao início do arquivo de especificação.
+
+
+
+
+### Mas o que é necessário para criar um projeto utilizando BDD?
+
+1. O primerio passo é instalar o cucumber via NPM, Yarn ou via PNPM. (O que você preferir. hahah) 
+<br/>
+<img width="1065" alt="Captura de Tela 2024-02-19 às 20 19 21" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/ec17b401-7db9-4f9a-a50b-805c9c2ae9f0">
+
+<div align="center">
+  [Foto do site cucumber.io](https://cucumber.io/docs/installation/javascript)
+</div>
+<br/>
+ℹ️ É ideal que ao instalar se add ao comando -g para que possamos instalar de maneira global o cucumber
+<br/>
+<br/>
+2. O próximo passo é instalar esses 3 components ao seu VS Code
+   - O primeiro component é o cucumber, ele serve para add suporte ao cucumber no seu VS Code.
+   - O segundo é o Cucumber (Gherkin) Full Support, ele irá nos auxiliar com alguns snipets para a criação do GHERKIN
+   - O terceiro é o CucumberJS Test Runner, ele irá add o componente no VS Code, facilitando a execução do TDD
+
+<br/>
+<br/>
+<img width="702" alt="Captura de Tela 2024-02-19 às 19 33 04" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/bf36b269-5d24-4b62-be92-0da5fc881eb9">
+
