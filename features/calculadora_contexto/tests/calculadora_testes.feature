@@ -13,6 +13,3 @@ Feature: Calculadora funções
     | -2      | 2       | 0      |
     | 0       | 0       | 0      |
     | 10      | -5      | 5      |
-    
-
-
