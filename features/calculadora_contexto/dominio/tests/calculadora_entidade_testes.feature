@@ -1,5 +1,5 @@
 Feature: Calculadora funções
-  Validando a os calculos
+  Descrição das funcionalidades e cenários que a calculadora deve ter
   
   Scenario: Somando dois números na calculadora
     Given Eu entrei o primeiro "<numero1>" na calculadora
