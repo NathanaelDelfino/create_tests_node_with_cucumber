@@ -9,7 +9,7 @@ Feature: Calculadora funções
 
  Examples:
     | numero1 | numero2 | resultado |
-    | 2       | 3       | 5      |
-    | -2      | 2       | 0      |
-    | 0       | 0       | 0      |
-    | 10      | -5      | 5      |
+    | 2       | 3       | 5         |
+    | -2      | 2       | 0         |
+    | 0       | 0       | 0         |
+    | 10      | -5      | 5         |
