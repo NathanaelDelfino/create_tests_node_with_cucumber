@@ -39,7 +39,7 @@ O Cucumber é uma ferramenta de automação de testes de software que suporta a 
 
 ### Mas o que é necessário para criar um projeto utilizando BDD?
 
-1. O primerio passo é instalar o cucumber via NPM, Yarn ou via PNPM. (O que você preferir. hahah) 
+1. **O primerio passo é instalar o cucumber via NPM, Yarn ou via PNPM. (O que você preferir. hahah)**
 <br/>
 <img width="1065" alt="Captura de Tela 2024-02-19 às 20 19 21" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/ec17b401-7db9-4f9a-a50b-805c9c2ae9f0">
 
@@ -50,7 +50,8 @@ O Cucumber é uma ferramenta de automação de testes de software que suporta a 
 ℹ️ É ideal que ao instalar se add ao comando -g para que possamos instalar de maneira global o cucumber
 <br/>
 <br/>
-2. O próximo passo é instalar esses 3 components ao seu VS Code
+
+2. **O próximo passo é instalar esses 3 components ao seu VS Code**:
    - O primeiro component é o cucumber, ele serve para add suporte ao cucumber no seu VS Code.
    - O segundo é o Cucumber (Gherkin) Full Support, ele irá nos auxiliar com alguns snipets para a criação do GHERKIN
    - O terceiro é o CucumberJS Test Runner, ele irá add o componente no VS Code, facilitando a execução do TDD
