@@ -41,7 +41,7 @@ O Cucumber é uma ferramenta de automação de testes de software que suporta a 
 
 1. **O primerio passo é instalar o cucumber via NPM, Yarn ou via PNPM. (O que você preferir. hahah)**
 <br/>
-<img width="1065" alt="Captura de Tela 2024-02-19 às 20 19 21" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/ec17b401-7db9-4f9a-a50b-805c9c2ae9f0">
+<img width="1065" alt="instalação cucumber" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/ec17b401-7db9-4f9a-a50b-805c9c2ae9f0">
 
 <div align="center">
   [Foto do site cucumber.io](https://cucumber.io/docs/installation/javascript)
@@ -58,5 +58,6 @@ O Cucumber é uma ferramenta de automação de testes de software que suporta a 
 
 <br/>
 <br/>
-<img width="702" alt="Captura de Tela 2024-02-19 às 19 33 04" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/bf36b269-5d24-4b62-be92-0da5fc881eb9">
+<img width="702" alt="Componentes necessários" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/bf36b269-5d24-4b62-be92-0da5fc881eb9">
 
+<img width="1439" alt="Execução dos testes realizando o processo RED - GREN - REFACTOR" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/05fc8f77-2b8d-4340-86e6-9b40f0a18b42">
