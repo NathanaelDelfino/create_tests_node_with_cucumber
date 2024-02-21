@@ -10,6 +10,9 @@ let calculadora = {
   add: function () {
     return this.numero1 + this.numero2;
   },
+  sub: function () {
+    return this.numero1 - this.numero2;
+  },
 };
 
 module.exports = calculadora;

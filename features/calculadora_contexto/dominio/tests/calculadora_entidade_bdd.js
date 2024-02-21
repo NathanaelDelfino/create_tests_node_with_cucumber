@@ -19,3 +19,7 @@ Then("Eu devo ver o resultado de ser {string} na tela", function (number) {
 When("Quando se somar dois números", () => {
   resultado = calculadora.add();
 });
+
+When("Quando se subtrair dois números", function () {
+  resultado = calculadora.sub();
+});
