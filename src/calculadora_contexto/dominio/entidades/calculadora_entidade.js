@@ -13,6 +13,9 @@ let calculadora = {
   sub: function () {
     return this.numero1 - this.numero2;
   },
+  mult: function () {
+    return this.numero1 * this.numero2;
+  },
 };
 
 module.exports = calculadora;

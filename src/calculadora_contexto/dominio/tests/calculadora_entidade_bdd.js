@@ -23,3 +23,7 @@ When("Quando se somar dois números", () => {
 When("Quando se subtrair dois números", function () {
   resultado = calculadora.sub();
 });
+
+When("Quando se multiplicar dois números", function () {
+  resultado = calculadora.mult();
+});
