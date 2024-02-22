@@ -74,5 +74,26 @@ O Cucumber é uma ferramenta de automação de testes de software que suporta a 
 
 <img width="883" alt="Criando o projeto Node" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/fdb95bf0-68b3-4507-9211-868c24111c23">
 
+2. **Com o projeto criado**:
+   - Com o projeto criado, entramos por meio do prompt mesmo, com o comando `cd` e o nome da pasta do nosso projeto, no meu caso `create_tests_node_with_cucumber`, após isso executamos o comando o comando `code .` para abrir o nosso projeto no VS Code.
+   - Com isso feito vamos abrir o terminal do VS Code e vamos digitar `npm install @cucumber\cucumber --save-dev`. seu arquivo deve assim:
+
+```
+{
+  "name": "node_cucumber_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
+```
+<br/>
+3. Agora vamos iniciar o desenvolvimento da camada que irá conter a descrição de cada funcionalidade da nossa aplicacação.
+
+
+
 
 <img width="1439" alt="Execução dos testes realizando o processo RED - GREN - REFACTOR" src="https://github.com/NathanaelDelfino/create_tests_node_with_cucumber/assets/7662248/05fc8f77-2b8d-4340-86e6-9b40f0a18b42">
