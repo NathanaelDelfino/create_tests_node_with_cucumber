@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js src/calculadora_contexto/dominio/tests/calculadora_entidade_testes.feature ; src/testes_de_intruducao/Tests/is_it_friday_yet.feature"
+    "test": "cucumber-js src/calculadora_contexto/dominio/tests/calculadora_entidade_testes.feature ; cucumber-js src/testes_de_intruducao/Tests/is_it_friday_yet.feature"
   },
   "keywords": [],
   "author": "",
